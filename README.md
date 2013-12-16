@@ -20,7 +20,7 @@ Write a program which for all numbers from 1 to 100
 
 ## Fibonnaci
 
-Generate the first 100 numbers in the Fibonnaci sequence.
+Generate the first 100 numbers of the Fibonnaci sequence.
 
 ## Quicksort
 
