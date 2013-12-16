@@ -1,6 +1,13 @@
 # Programming Kata
 
-Small exercises in various languages.
+Small exercises in various languages.  Current languages should be:
+
+  - Perl
+  - Python
+  - Fortran
+  - C
+  - Ruby
+  - Haskell
 
 ## Fizzbuzz
 
