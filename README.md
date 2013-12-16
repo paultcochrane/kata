@@ -25,3 +25,7 @@ Generate the first 100 numbers of the Fibonnaci sequence.
 ## Quicksort
 
 Implement the quicksort algorithm.
+
+## Prime factors
+
+Calculate the prime factors of a given integer.
