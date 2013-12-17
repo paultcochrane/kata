@@ -50,3 +50,11 @@ Write the program using a recursive algorithm.
 
 Rewrite the program to interactively ask for the argument.  Use previously
 computed values to improve performance.
+
+## Reverse the input
+
+Read a number of strings from standard input and print them in reverse order
+on the terminal.  The input sequence is terminated with the string `END`.
+
+Adapted from the example on
+<https://go-left.com/blog/programming/100-little-programming-exercises/>
