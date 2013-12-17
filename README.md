@@ -29,3 +29,24 @@ Implement the quicksort algorithm.
 ## Prime factors
 
 Calculate the prime factors of a given integer.
+
+## Factorial
+
+Write a program which takes a single argument, computes the factorial and
+prints the value on the screen.
+
+Adapted from the example on
+<https://go-left.com/blog/programming/100-little-programming-exercises/>
+
+### Iterative
+
+Write the program using an iterative algorithm.
+
+### Recursive
+
+Write the program using a recursive algorithm.
+
+### Interactive
+
+Rewrite the program to interactively ask for the argument.  Use previously
+computed values to improve performance.
