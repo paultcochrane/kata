@@ -18,6 +18,10 @@ Write a program which for all numbers from 1 to 100
  - prints `FizzBuzz` when divisible by 5 and 3
  - otherwise just prints the number
 
+## Moin
+
+Write a program which says "moin" for each nick in a (small) chat room.
+
 ## Fibonnaci
 
 Generate the first 100 numbers of the Fibonnaci sequence.
