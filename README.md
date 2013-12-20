@@ -22,9 +22,9 @@ Write a program which for all numbers from 1 to 100
 
 Write a program which says "moin" for each nick in a (small) chat room.
 
-## Fibonnaci
+## Fibonacci
 
-Generate the first 100 numbers of the Fibonnaci sequence.
+Generate the first 100 numbers of the Fibonacci sequence.
 
 ## Quicksort
 
