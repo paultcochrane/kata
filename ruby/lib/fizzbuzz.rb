@@ -2,12 +2,12 @@
 
 class FizzBuzz
     def input(number)
-        if number == 3
+        if number.modulo(15) == 0
+            "fizzbuzz"
+        elsif number.modulo(3) == 0
             "fizz"
         elsif number == 5
             "buzz"
-        elsif number == 15
-            "fizzbuzz"
         else
             number
         end
