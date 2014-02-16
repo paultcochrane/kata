@@ -1,5 +1,7 @@
+.PHONY: test
+
 TEST_FILES = \
-	     test_fizzbuzz.rb
+	     test/test_fizzbuzz.rb
 
 test: $(TEST_FILES)
-	ruby -I. $(TEST_FILES)
+	ruby -I lib $(TEST_FILES)
