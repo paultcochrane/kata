@@ -22,6 +22,10 @@ class TestFizzBuzz < Test::Unit::TestCase
                      "Should output buzz")
     end
 
+    def test_buzz2
+        assert_equal("buzz", @fizzbuzz.input(10),
+                     "Should output buzz")
+    end
     def test_fizzbuzz
         assert_equal("fizzbuzz", @fizzbuzz.input(15),
                      "Should output fizzbuzz")

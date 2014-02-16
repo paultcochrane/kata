@@ -6,7 +6,7 @@ class FizzBuzz
             "fizzbuzz"
         elsif number.modulo(3) == 0
             "fizz"
-        elsif number == 5
+        elsif number.modulo(5) == 0
             "buzz"
         else
             number
