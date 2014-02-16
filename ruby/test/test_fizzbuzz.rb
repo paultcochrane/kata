@@ -21,6 +21,12 @@ class TestFizzBuzz < Test::Unit::TestCase
         assert_equal("fizzbuzz", @fizzbuzz.input(15),
                      "Should output fizzbuzz")
     end
+
+    def test_print_number
+        number = 2
+        assert_equal(number, @fizzbuzz.input(number),
+                     "Should output input number")
+    end
 end
 
 # vim: expandtab shiftwidth=4 softtabstop=4
