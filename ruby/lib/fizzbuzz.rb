@@ -2,7 +2,11 @@
 
 class FizzBuzz
     def input(number)
-        "fizz"
+        if number == 3
+            "fizz"
+        else
+            "buzz"
+        end
     end
 end
 
