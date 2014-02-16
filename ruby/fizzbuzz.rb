@@ -1,5 +1,11 @@
 #!/usr/bin/env ruby
 
+class FizzBuzz
+    def input(number)
+        "fizz"
+    end
+end
+
 for i in 1..100
     if i.modulo(3) == 0
         puts "Fizz"
