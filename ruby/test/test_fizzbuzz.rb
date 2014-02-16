@@ -16,6 +16,11 @@ class TestFizzBuzz < Test::Unit::TestCase
         assert_equal("buzz", @fizzbuzz.input(5),
                      "Should output buzz")
     end
+
+    def test_fizzbuzz
+        assert_equal("fizzbuzz", @fizzbuzz.input(15),
+                     "Should output fizzbuzz")
+    end
 end
 
 # vim: expandtab shiftwidth=4 softtabstop=4

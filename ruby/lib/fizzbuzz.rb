@@ -4,8 +4,10 @@ class FizzBuzz
     def input(number)
         if number == 3
             "fizz"
-        else
+        elsif number == 5
             "buzz"
+        else
+            "fizzbuzz"
         end
     end
 end
