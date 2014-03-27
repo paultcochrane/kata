@@ -1,8 +1,8 @@
 main :: IO ()
 main = printAll $ map fizzbuzz [1..100]
 
-printAll [] = return ()
-printAll (x:xs) = putStrLn x >> printAll xs
+printAll :: [String] -> IO()
+printAll = foldr ((>>) . putStrLn) (return ())
 
 fizzbuzz :: Int -> String
 fizzbuzz x | x `mod` 15 == 0 = "fizzbuzz"
