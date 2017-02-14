@@ -34,6 +34,22 @@ Implement the quicksort algorithm.
 
 Calculate the prime factors of a given integer.
 
+## Diamond Kata
+
+Given a letter, print a diamond starting with 'A' with the supplied letter
+at the widest point.
+
+For example: `print-diamond('C')` prints
+
+      A
+     B B
+    C   C
+     B B
+      A
+
+  - <http://natpryce.com/articles/000807.html>
+  - <http://claysnow.co.uk/recycling-tests-in-tdd/>
+
 ## Factorial
 
 Write a program which takes a single argument, computes the factorial and
